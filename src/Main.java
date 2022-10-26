@@ -9,7 +9,7 @@ public class Main {
     }
 
     public static void test(Child c){
-        System.out.println("child");
+        System.out.println("child1");
 
     }
     public static  void test(Parent p){
