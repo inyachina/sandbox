@@ -1,18 +1,10 @@
-import utils.Child;
-import utils.Parent;
+import utils.Dog;
+import utils.Sex;
 
 public class Main {
 
     public static void main(String[] args) {
-        Parent child = new Child(1);
-        test(child);
-    }
-
-    public static void test(Child c){
-        System.out.println("child1");
-
-    }
-    public static  void test(Parent p){
-        System.out.println("parent");
+        Dog dog = new Dog(1, "Sharik", Sex.MALE);
+        System.out.println(dog.getSex().getTitle());
     }
 }
